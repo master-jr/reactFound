@@ -1,0 +1,55 @@
+.grid {
+  background-color: #cecece !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.header .title {
+  margin: 10px;
+  width: 52vh;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+}
+
+.header img {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  margin-left: 7px;
+}
+
+/* Grid */
+.grid input {
+  width: 40vw;
+  height: 7vh;
+  border-radius: 5px;
+  border: 1px solid #606060;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.grid button {
+    width: 15vw;
+    height: 7vh;
+    font-weight: bolder;
+    margin: 10px 10px;
+    border-radius: 19px;
+    border: 1px solid #dbb8b8;
+    cursor: pointer;
+    transition: filter 0.2s;
+    background: #95956b;
+}
+
+.grid button:hover {
+  background-color: antiquewhite;
+}
